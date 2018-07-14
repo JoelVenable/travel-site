@@ -1,0 +1,24 @@
+{
+  "name": "travel-site",
+  "version": "1.0.0",
+  "description": "Demonstration travel site using Node.js and gulp.",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize": "^0.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelmusicman/travel-site.git"
+  },
+  "author": "Joel Venable",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelmusicman/travel-site/issues"
+  },
+  "homepage": "https://github.com/joelmusicman/travel-site#readme"
+}
