@@ -6,6 +6,12 @@
   &--gutters>div {
     padding-right: 65px;
   }
+  &--gutters-large {
+    margin-right: -90px;
+  }
+  &--gutters-large>div {
+    padding-right: 90px;
+  }
   &--b-margin-until-medium {
     margin-bottom: 1rem;
   }
@@ -19,6 +25,10 @@
     }
     &--b-margin-until-medium {
       margin-bottom: 0;
+    }
+    &__medium-6 {
+      float: left;
+      width: 50%;
     }
     &__medium-8 {
       float: left;
