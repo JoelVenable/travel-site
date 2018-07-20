@@ -18,6 +18,10 @@ gulp.task('watch', function () {
     gulp.start('cssInject');
   });
 
+  watch(['app/assets/images/icons/**/*.svg'], function () {
+    gulp.start('icons');
+  });
+
   watch('app/index.html', function () {
     browserSync.reload();
   });
