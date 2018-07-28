@@ -1,5 +1,6 @@
 import $ from 'jquery';
 
+
 class MobileMenu {
   constructor() {
     this.menuIcon = $('.site-header__menu-icon');
@@ -16,6 +17,5 @@ class MobileMenu {
     this.menuContent.toggleClass('site-header__menu-content--is-visible');
   }
 }
-
 
 export default MobileMenu;

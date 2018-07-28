@@ -4,8 +4,11 @@ var gulp = require('gulp'),
 
 
 gulp.task('scripts', function (callback) {
-  webpack(require('../../webpack.config'), function () {
-
+  webpack(require('../../webpack.config'), function (err, stats) {
+    if (err) {
+      console.log(err.toString());
+    }
+    console.log(stats.toString());
     callback();
   });
 });

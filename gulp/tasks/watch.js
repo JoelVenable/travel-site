@@ -38,6 +38,6 @@ gulp.task('cssInject', ['styles'], function () {
     .pipe(browserSync.stream());
 });
 
-gulp.tast('scriptsRefresh', ['scripts'], function () {
+gulp.task('scriptsRefresh', ['scripts'], function () {
   browserSync.reload();
 });
