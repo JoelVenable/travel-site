@@ -22,6 +22,10 @@ gulp.task('watch', function () {
     gulp.start('icons');
   });
 
+  watch('./app/assets/scripts/**/*.js', function () {
+    gulp.start('scripts');
+  });
+
   watch('app/index.html', function () {
     browserSync.reload();
   });

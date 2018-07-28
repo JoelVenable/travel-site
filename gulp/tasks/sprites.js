@@ -5,6 +5,11 @@ var gulp = require('gulp'),
   fs = require('fs');
 
 var config = {
+  shape: {
+    dimension: {
+      maxHeight: 64
+    }
+  },
   mode: {
     css: {
       sprite: 'sprite.svg',
