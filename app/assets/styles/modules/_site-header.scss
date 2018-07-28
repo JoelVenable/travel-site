@@ -24,6 +24,9 @@
   }
   &__menu-content {
     display: none;
+    @mixin atMedium {
+      display: block;
+    }
   }
   &__btn-container {
     float: right;
