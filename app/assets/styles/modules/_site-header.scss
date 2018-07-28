@@ -1,0 +1,31 @@
+.site-header {
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  @mixin atMedium {
+    background-color: rgba($mainBlue, .3);
+  }
+  &__logo {
+    left: 50%;
+    transform: translateX(-50%) scale(.75);
+    transform-origin: top;
+    @mixin atMedium {
+      left: auto;
+      transform: translateX(0) scale(1);
+    }
+    top: 0;
+    position: absolute;
+    background-color: $mainBlue;
+    padding: 1.3rem 1.6rem;
+    &__graphic {
+      text-indent: -9999px;
+    }
+  }
+  &__menu-content {
+    display: none;
+  }
+  &__btn-container {
+    float: right;
+  }
+}

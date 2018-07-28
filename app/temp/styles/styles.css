@@ -397,6 +397,7 @@ a {
   }
 
 .large-hero__text-content {
+    padding-top: 60px;
     position: absolute;
     top: 50%;
     left: 0;
@@ -837,7 +838,7 @@ a {
   }
 
 .icon {
-  background-image: url('/assets/images/sprites/sprite-d675eadb.svg');
+  background-image: url('/assets/images/sprites/sprite-d3cf4544.svg');
 }
 
 .icon--clear-view-escapes {
@@ -849,67 +850,79 @@ a {
 .icon--comment {
     width: 64px;
     height: 64px;
-    background-position: 99.70443349753694% 0;
+    background-position: 99.69849246231156% 0;
   }
 
 .icon--facebook {
     width: 21.23px;
     height: 42.01px;
-    background-position: 26.040607071652357% 45.795830448496034%;
+    background-position: 26.47143979815527% 89.30425258345635%;
   }
 
 .icon--fire {
     width: 56px;
     height: 64px;
-    background-position: 0 99.56481481481481%;
+    background-position: 68.79227053140097% 0;
   }
 
 .icon--globe {
     width: 64px;
     height: 64px;
-    background-position: 27.586206896551722% 99.56481481481481%;
+    background-position: 0 65.70744680851064%;
   }
 
 .icon--instagram {
     width: 42.01px;
     height: 42.01px;
-    background-position: 63.2917018534157% 49.234556504346486%;
+    background-position: 64.43730485542332% 30.477641792466308%;
   }
 
 .icon--mail {
     width: 64px;
     height: 48px;
-    background-position: 0 48.00806451612903%;
+    background-position: 64.321608040201% 60.55392156862745%;
+  }
+
+.icon--md-close {
+    width: 64px;
+    height: 64px;
+    background-position: 0 31.664893617021278%;
+  }
+
+.icon--md-menu {
+    width: 64px;
+    height: 64px;
+    background-position: 99.69849246231156% 34.04255319148936%;
   }
 
 .icon--rain {
     width: 64px;
     height: 64px;
-    background-position: 99.70443349753694% 59.25925925925926%;
+    background-position: 0 99.75%;
   }
 
 .icon--star {
     width: 64px;
     height: 64px;
-    background-position: 59.11330049261084% 99.56481481481481%;
+    background-position: 32.1608040201005% 65.70744680851064%;
   }
 
 .icon--twitter {
     width: 51.78px;
     height: 42.06px;
-    background-position: 94.04330452560171% 98.50700323226104%;
+    background-position: 93.93049900577597% 60.969800895493954%;
   }
 
 .icon--wifi {
     width: 60px;
     height: 64px;
-    background-position: 68.79227053140097% 0;
+    background-position: 31.527093596059114% 31.664893617021278%;
   }
 
 .icon--youtube {
     width: 34.75px;
     height: 42px;
-    background-position: 36.69752421959096% 45.792307692307695%;
+    background-position: 37.34063526834611% 89.3%;
   }
 
 .site-footer {
@@ -933,4 +946,79 @@ a {
       margin-bottom: 0;
       margin-right: 1.5rem
   }
+  }
+
+.site-header {
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+@media (min-width: 800px) {
+
+.site-header {
+    background-color: rgba(47,85,114, .3)
+}
+  }
+
+.site-header__logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%) scale(.75);
+            transform: translateX(-50%) scale(.75);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    top: 0;
+    position: absolute;
+    background-color: #2f5572;
+    padding: 1.3rem 1.6rem;
+  }
+
+@media (min-width: 800px) {
+
+.site-header__logo {
+      left: auto;
+      -webkit-transform: translateX(0) scale(1);
+              transform: translateX(0) scale(1)
+  }
+  }
+
+.site-header__logo__graphic {
+      text-indent: -9999px;
+    }
+
+.site-header__menu-content {
+    display: none;
+  }
+
+.site-header__btn-container {
+    float: right;
+  }
+
+.primary-nav--pull-right {
+    float: right;
+  }
+
+.primary-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+.primary-nav ul::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.primary-nav li {
+    list-style: none;
+    float: left;
+    padding-top: .5rem;
+    padding-right: 1.6rem;
+  }
+
+.primary-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
   }
