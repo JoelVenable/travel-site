@@ -33,6 +33,10 @@
     font-weight: 300;
     background-color: rgba($mainBlue, .5);
     @mixin atMedium {
+      &.is-current-link {
+        color: #fabb69;
+      }
+      transition: color .3s ease-out;
       padding: 0;
       font-size: 1rem;
       background-color: transparent;

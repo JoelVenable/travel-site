@@ -4775,8 +4775,12 @@ a {
 @media (min-width: 800px) {
 
 .primary-nav a {
+      transition: color .3s ease-out;
       padding: 0;
       font-size: 1rem;
       background-color: transparent
   }
+      .primary-nav a.is-current-link {
+        color: #fabb69;
+      }
   }
