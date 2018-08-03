@@ -1,4 +1,5 @@
 @import "normalize.css";
+@import "animate.css";
 @import "modules/_vars.scss";
 @import "modules/_mixins.scss";
 @import "modules/_global.scss";
